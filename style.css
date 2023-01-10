@@ -5,6 +5,7 @@ body {
 }
 
 .cabecalho-imagem {
+    margin: 2% 0 0 2%;
     padding: 18px 0 0 72px;
     height: 48px;
 }
@@ -14,6 +15,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 0 5%;
 }
 
 .conteudo-principal {
@@ -29,7 +31,8 @@ body {
 
 .entrada-texto {
     width: 780px;
-    height: 520px;
+    height: 640px;
+    padding: 2% 0;
     border: none;
     outline: none;
     font-size: 32px;
@@ -84,7 +87,7 @@ body {
 }
 
 #conteudo-final-imagem {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +96,7 @@ body {
 
 .conteudo-final-titulo {
     text-align: center;
-    padding-top: 84px;
+    padding-top: 120px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -101,14 +104,15 @@ body {
 .conteudo-final-subtitulo {
     text-align: center;
     font-size: 16px;
-    margin-top: 8px;
+    margin-top: 14px;
 }
 
 .form-control {
     display: flex;
     align-items: center;
+    margin-top: 5%;
     padding: 24px;
-    height: 590px;
+    height: 620px;
     width: 360px;
     border: 1px solid white;
     outline: none;
@@ -123,7 +127,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 64px auto;
+    margin: 10% auto;
 }
 
 .conteudo-final-botao:hover {

@@ -1,7 +1,5 @@
 # DecodificadorAlura
 
-https://user-images.githubusercontent.com/111037599/211624188-3f24751b-e825-4331-8837-3e85ed062ffc.mp4
-
 As "chaves" de criptografia que utilizaremos são:
 `A letra "e" é convertida para "enter"`
 `A letra "i" é convertida para "imes"`
