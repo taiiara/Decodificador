@@ -1,0 +1,143 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    text-decoration: none;
+}
+
+.cabecalho-imagem {
+    padding: 18px 0 0 72px;
+    height: 48px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal {
+    margin: 0 auto;
+}
+
+.conteudo-principal-titulo {
+    font-size: 48px;
+    display: block;
+    margin: 24px 0;
+    color: #0A3871;
+}
+
+.entrada-texto {
+    width: 780px;
+    height: 520px;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    color: #0A3871;
+    margin: 0 0 24px 0;
+    background-color: #F3F5FC;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 48px;
+}
+
+.conteudo-principal-paragrafo {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.conteudo-secundario-botao {
+    display: flex;
+    justify-content: space-around;
+    width: 248px;
+    padding: 24px;
+    font-size: 18px;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+}
+
+.conteudo-secundario-botao:hover {
+    background-color: rgba(10, 56, 113, 0.53);
+    font-size: 20px;
+    color: #F3F5FC;
+    transition: 0.3s;
+}
+
+.conteudo-secundario-botao:active {
+    background-color: rgba(10, 56, 113, 1)
+
+}
+
+.conteudo-final {
+
+    margin: 0 3% 0 0;
+    background-color: white;
+    height:840px;
+    width: 440px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+#conteudo-final-imagem {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 152px;
+}
+
+.conteudo-final-titulo {
+    text-align: center;
+    padding-top: 84px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.conteudo-final-subtitulo {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    height: 590px;
+    width: 360px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: #495057;
+    
+}
+
+.copy-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 64px auto;
+}
+
+.conteudo-final-botao:hover {
+    background-color: rgba(10, 56, 113, 0.53);
+    font-size: 20px;
+    color: #F3F5FC;
+    transition: 0.3s;
+}
+
+.conteudo-final-botao:active {
+    background-color: rgba(10, 56, 113, 1);
+
+}
+
+.texto {
+    display: none;
+}

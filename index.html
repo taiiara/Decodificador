@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador Alura</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="Vector.png" alt="Logo Alura">
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <form id="mensagem" name="mensagem" action="#">
+                <label class="conteudo-principal-titulo" for="text-box">Digite seu texto</label>
+                <textarea class="entrada-texto" name="textarea" id="entrada-texto" cols="30" rows="10"></textarea>
+            </form>
+            <div>
+                <p class="conteudo-principal-paragrafo">&#9888; Apenas letras minusculas e sem acento.</p>
+            </div>
+            <div class="conteudo-secundario">
+                <button class="conteudo-secundario-botao" id="cod-button" onclick="encriptaMensagem()">Criptografar</button>
+                <button class="conteudo-secundario-botao" id="decod-button" onclick="traduzMensagem()">Descriptografar</button>
+                <button class="conteudo-secundario-botao" id="clean-button" onclick="limpar()">Limpar</button>
+            </div>
+        </section>
+            <section class="conteudo-final">
+                <div class="imagem" id="imagem" name="imagem">
+                    <img id="conteudo-final-imagem" src="High quality products 1 1.svg" alt="">
+                    <p class="conteudo-final-titulo">Nenhuma mensagem encontrada</p>
+                    <p class="conteudo-final-subtitulo">Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+                <div class="texto" id="texto" name="texto">
+                    <textarea class="form-control" name="saida-texto" id="saida-texto"></textarea>
+                    <div class="copy-button">
+                        <button class="conteudo-secundario-botao" id="copy-button" value="Copiar"
+                            onclick="copiarTexto()">Copiar</button>
+                    </div>
+                </div>
+            </section>
+            
+    </main>
+
+</body>
+</html>
